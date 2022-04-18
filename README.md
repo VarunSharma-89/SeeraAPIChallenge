@@ -28,6 +28,12 @@ RestAssured API Automation : Required to automate one POST & one GET API from **
 ![image](https://user-images.githubusercontent.com/86568081/163870002-a58ee02a-8855-4e68-84bc-f79d3cf7390c.png)
 
 
+6. You can also run the tests by using the command "mvn test" in the Command Prompt.
+![image](https://user-images.githubusercontent.com/86568081/163886501-8788222a-15f5-435c-998b-b747fddfb292.png)
+![image](https://user-images.githubusercontent.com/86568081/163886590-6b204e91-7c52-417a-aaba-bf8214a326ad.png)
+
+
+
 # About The Framework :
 1. Used Rest Assured java library for testing Restful Webservices.
 2. Maven is used for build management.
