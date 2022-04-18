@@ -1,5 +1,5 @@
 # CodeChallenge_SeeraGroup
-RestAssured API Automation : Required to automate one POST & one GET API from Hotels module of the website "https://ae.almosafer.com/en"
+RestAssured API Automation : Required to automate one POST & one GET API from **Hotels** module of the website "https://ae.almosafer.com/en"
 
 
 # RestAssured API Framework: (using TestNG & Maven)
