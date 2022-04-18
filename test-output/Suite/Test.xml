@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-BAF6LQ3" name="hotels_API_Tests.AsyncSearchHotel_POST_API_Test" tests="22" failures="0" timestamp="18 Apr 2022 22:10:13 GMT" time="26.744" errors="0">
+  <testcase name="asyncSearchHotel_checkInCheckOut_sameDate" time="4.295" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_invalidAuthToken" time="1.251" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_invalidEndpoint" time="0.825" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_invalidPlaceID" time="1.188" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_lessThanMin_NumberofAdults" time="0.897" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_moreThanMaxGapBetween_checkInCheckOutDate" time="0.966" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_moreThanMax_NumberofAdults" time="1.06" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_noAdultsField" time="0.755" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_noAuthToken" time="1.127" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_noCheckInDateField" time="0.759" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_noCheckOutDateField" time="0.81" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_noPlaceID" time="1.024" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_pastCheckInDate_PostData" time="0.798" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_pastCheckOutDate_PostData" time="1.081" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="asyncSearchHotel_positiveFlow" time="0.86" classname="hotels_API_Tests.AsyncSearchHotel_POST_API_Test"/>
+  <testcase name="searchHotel_invalidAuthToken" time="1.057" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+  <testcase name="searchHotel_invalidEndpoint" time="0.926" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+  <testcase name="searchHotel_invalidPageSize" time="0.853" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+  <testcase name="searchHotel_invalidPlaceID" time="1.011" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+  <testcase name="searchHotel_noAuthToken" time="0.716" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+  <testcase name="searchHotel_noPlaceID" time="0.711" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+  <testcase name="searchHotel_positiveFlow" time="2.552" classname="hotels_API_Tests.SearchHotels_GET_API_Test"/>
+</testsuite>

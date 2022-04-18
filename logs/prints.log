@@ -1,0 +1,66 @@
+03:39:48.337 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:48.341 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide same CheckIn & CheckOut dates & verify the response (POST Request)
+03:39:51.883 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@50cf5a23
+03:39:52.626 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:52.626 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide invalid Auth Token header value & verify the response (POST Request)
+03:39:53.855 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@1e63d216
+03:39:53.879 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:53.879 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide invalid endpoint & verify the response (POST Request)
+03:39:54.668 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@659a2455
+03:39:54.715 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:54.715 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide invalid PlaceID & verify the response (POST Request)
+03:39:55.866 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@70abf9b0
+03:39:55.903 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:55.904 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide less than the min(1) number of allowed Adults & verify the response (POST Request)
+03:39:56.756 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@7ec58feb
+03:39:56.805 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:56.805 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide more than max(30) days gap between CheckIn & CheckOut dates & verify the response (POST Request)
+03:39:57.714 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@746b18fd
+03:39:57.774 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:57.774 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide more than the max(8) number of allowed Adults & verify the response (POST Request)
+03:39:58.778 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@5bca7664
+03:39:58.843 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:58.843 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Don't provide Adults field & verify the response (POST Request)
+03:39:59.550 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@47ec7422
+03:39:59.599 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:39:59.599 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Don't provide Auth Token header & verify the response (POST Request)
+03:40:00.692 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@34e20e6b
+03:40:00.729 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:00.729 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Don't provide CheckIn date field & verify the response (POST Request)
+03:40:01.449 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@d5ce97f
+03:40:01.485 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:01.485 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Don't provide CheckOut date field & verify the response (POST Request)
+03:40:02.248 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@745c2004
+03:40:02.298 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:02.298 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Don't provide PlaceID field & verify the response (POST Request)
+03:40:03.286 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@30a7c98f
+03:40:03.323 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:03.323 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide CheckIn date as a past date from the current date & verify the response (POST Request)
+03:40:04.084 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@7c9bdee9
+03:40:04.123 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:04.123 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Provide CheckOut date as a past date from the CheckIn date & verify the response (POST Request)
+03:40:05.159 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@39ad12b6
+03:40:05.205 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:05.205 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - Async Search Hotel Happy Flow & verify the response (POST Request)
+03:40:06.042 [main] INFO  hotels_API_Tests.AsyncSearchHotel_POST_API_Test - io.restassured.internal.RestAssuredResponseImpl@26d96e5
+03:40:06.067 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:06.068 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Provide invalid Auth Token header value & verify the response (GET Request)
+03:40:07.108 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@6778aea6
+03:40:07.125 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:07.125 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Provide invalid endpoint & verify the response (GET Request)
+03:40:08.010 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@27df0f3d
+03:40:08.057 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:08.058 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Provide invalid PlaceID as Query Param & verify the response (GET Request)
+03:40:08.860 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@750ff7d3
+03:40:08.907 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:08.907 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Provide invalid PlaceID as Query Param & verify the response (GET Request)
+03:40:09.891 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@59ed3e6c
+03:40:09.918 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:09.920 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Don't provide Auth Token header & verify the response (GET Request)
+03:40:10.610 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@e9ef5b6
+03:40:10.636 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:10.637 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Provide invalid PlaceID as Query Param & verify the response (GET Request)
+03:40:11.311 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@5fa23c
+03:40:11.348 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+03:40:11.348 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Search Hotel Happy Flow & verify the response (GET Request)
+03:40:13.665 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@c3edf4c

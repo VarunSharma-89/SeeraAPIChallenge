@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26744" started-at="2022-04-19T03:39:47Z" finished-at="2022-04-19T03:40:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26744" started-at="2022-04-19T03:39:47Z" finished-at="2022-04-19T03:40:13Z">
+      <class name="hotels_API_Tests.SearchHotels_GET_API_Test">
+        <test-method status="PASS" signature="hotelSearch_setup()" name="hotelSearch_setup" is-config="true" duration-ms="3" started-at="2022-04-19T03:40:06Z" finished-at="2022-04-19T03:40:06Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_invalidAuthToken()" name="searchHotel_invalidAuthToken" duration-ms="1057" started-at="2022-04-19T03:40:06Z" finished-at="2022-04-19T03:40:07Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_invalidEndpoint()" name="searchHotel_invalidEndpoint" duration-ms="926" started-at="2022-04-19T03:40:07Z" finished-at="2022-04-19T03:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_invalidPageSize()" name="searchHotel_invalidPageSize" duration-ms="853" started-at="2022-04-19T03:40:08Z" finished-at="2022-04-19T03:40:08Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_invalidPlaceID()" name="searchHotel_invalidPlaceID" duration-ms="1011" started-at="2022-04-19T03:40:08Z" finished-at="2022-04-19T03:40:09Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_noAuthToken()" name="searchHotel_noAuthToken" duration-ms="716" started-at="2022-04-19T03:40:09Z" finished-at="2022-04-19T03:40:10Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_noPlaceID()" name="searchHotel_noPlaceID" duration-ms="711" started-at="2022-04-19T03:40:10Z" finished-at="2022-04-19T03:40:11Z">
+        </test-method>
+        <test-method status="PASS" signature="searchHotel_positiveFlow()" name="searchHotel_positiveFlow" duration-ms="2552" started-at="2022-04-19T03:40:11Z" finished-at="2022-04-19T03:40:13Z">
+        </test-method>
+      </class>
+      <class name="hotels_API_Tests.AsyncSearchHotel_POST_API_Test">
+        <test-method status="PASS" signature="hotelSearch_setup()" name="hotelSearch_setup" is-config="true" duration-ms="1148" started-at="2022-04-19T03:39:47Z" finished-at="2022-04-19T03:39:48Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_checkInCheckOut_sameDate()" name="asyncSearchHotel_checkInCheckOut_sameDate" duration-ms="4295" started-at="2022-04-19T03:39:48Z" finished-at="2022-04-19T03:39:52Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_invalidAuthToken()" name="asyncSearchHotel_invalidAuthToken" duration-ms="1251" started-at="2022-04-19T03:39:52Z" finished-at="2022-04-19T03:39:53Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_invalidEndpoint()" name="asyncSearchHotel_invalidEndpoint" duration-ms="825" started-at="2022-04-19T03:39:53Z" finished-at="2022-04-19T03:39:54Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_invalidPlaceID()" name="asyncSearchHotel_invalidPlaceID" duration-ms="1188" started-at="2022-04-19T03:39:54Z" finished-at="2022-04-19T03:39:55Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_lessThanMin_NumberofAdults()" name="asyncSearchHotel_lessThanMin_NumberofAdults" duration-ms="897" started-at="2022-04-19T03:39:55Z" finished-at="2022-04-19T03:39:56Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_moreThanMaxGapBetween_checkInCheckOutDate()" name="asyncSearchHotel_moreThanMaxGapBetween_checkInCheckOutDate" duration-ms="966" started-at="2022-04-19T03:39:56Z" finished-at="2022-04-19T03:39:57Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_moreThanMax_NumberofAdults()" name="asyncSearchHotel_moreThanMax_NumberofAdults" duration-ms="1060" started-at="2022-04-19T03:39:57Z" finished-at="2022-04-19T03:39:58Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_noAdultsField()" name="asyncSearchHotel_noAdultsField" duration-ms="755" started-at="2022-04-19T03:39:58Z" finished-at="2022-04-19T03:39:59Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_noAuthToken()" name="asyncSearchHotel_noAuthToken" duration-ms="1127" started-at="2022-04-19T03:39:59Z" finished-at="2022-04-19T03:40:00Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_noCheckInDateField()" name="asyncSearchHotel_noCheckInDateField" duration-ms="759" started-at="2022-04-19T03:40:00Z" finished-at="2022-04-19T03:40:01Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_noCheckOutDateField()" name="asyncSearchHotel_noCheckOutDateField" duration-ms="810" started-at="2022-04-19T03:40:01Z" finished-at="2022-04-19T03:40:02Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_noPlaceID()" name="asyncSearchHotel_noPlaceID" duration-ms="1024" started-at="2022-04-19T03:40:02Z" finished-at="2022-04-19T03:40:03Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_pastCheckInDate_PostData()" name="asyncSearchHotel_pastCheckInDate_PostData" duration-ms="798" started-at="2022-04-19T03:40:03Z" finished-at="2022-04-19T03:40:04Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_pastCheckOutDate_PostData()" name="asyncSearchHotel_pastCheckOutDate_PostData" duration-ms="1081" started-at="2022-04-19T03:40:04Z" finished-at="2022-04-19T03:40:05Z">
+        </test-method>
+        <test-method status="PASS" signature="asyncSearchHotel_positiveFlow()" name="asyncSearchHotel_positiveFlow" duration-ms="860" started-at="2022-04-19T03:40:05Z" finished-at="2022-04-19T03:40:06Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
