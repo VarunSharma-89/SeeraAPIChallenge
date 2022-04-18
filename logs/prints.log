@@ -1,3 +1,0 @@
-19:43:50.082 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
-19:43:50.087 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Search Hotel Happy Flow & verify the response (GET Request)
-19:43:51.367 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@4d95a72e
