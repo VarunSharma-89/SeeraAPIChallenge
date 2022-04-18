@@ -1,0 +1,4 @@
+19:43:49.318 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@f951a7f
+19:43:49.346 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Host informationhttps://www.almosafer.com/api/
+19:43:49.351 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - Provide invalid PlaceID as Query Param & verify the response (GET Request)
+19:43:50.047 [main] INFO  hotels_API_Tests.SearchHotels_GET_API_Test - io.restassured.internal.RestAssuredResponseImpl@43045f9f

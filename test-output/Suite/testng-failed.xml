@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="hotels_API_Tests.SearchHotels_GET_API_Test">
+        <methods>
+          <include name="hotelSearch_setup"/>
+          <include name="searchHotel_positiveFlow"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
